@@ -1,0 +1,52 @@
+
+
+.sections {
+    width: 100%;
+    height: 100%;
+    -webkit-overflow-scrolling: touch;
+    overflow-y: scroll; 
+    scroll-snap-type: mandatory;
+    scroll-snap-points-y: repeat(100vh);
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+
+.section {
+    display: block;
+    margin: auto;
+    text-align: center;
+    min-width: 100vw;
+    height: 100dvh;
+    padding-top: 200px;
+    scroll-snap-align: start;
+    
+    img {
+        width: 450px;
+    }
+
+    h2, p{
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 15px;
+        font-weight: 700;
+    }
+    
+    p a{
+        color: white;
+    }
+
+    .text-pink {
+        color: var(--color-bg--pink);
+    }
+    
+    .point {
+        font-weight: 300;
+    }
+}
+
