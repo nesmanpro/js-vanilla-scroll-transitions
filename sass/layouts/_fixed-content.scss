@@ -1,3 +1,4 @@
+
 .overall {
     position: fixed;
     z-index: 1;
@@ -62,3 +63,23 @@
 
 }
 
+@media only screen and (max-width: 991px) {
+
+
+        .overall-title {
+            width: 100%;
+            position: relative;
+            transform: translateY(1.6rem);
+            margin-left: 2.5rem;
+
+            h1 {
+            position: absolute;
+            }
+        }
+        
+
+        .overall-email , .overall-description, .overall-list {
+            display: none;
+        }
+    
+    }
