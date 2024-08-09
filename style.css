@@ -121,7 +121,26 @@ ul, li {
   .overall-title h1 {
     position: absolute;
   }
-  .overall-email, .overall-description, .overall-list {
+  .overall-email,
+  .overall-description,
+  .overall-list {
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .overall-title {
+    width: 100%;
+    position: relative;
+    transform: translateY(1.6rem);
+    margin-left: 2.5rem;
+  }
+  .overall-title h1 {
+    position: absolute;
+    font-size: 1.5rem;
+  }
+  .overall-email,
+  .overall-description,
+  .overall-list {
     display: none;
   }
 }
